@@ -117,7 +117,7 @@ body {
     color: #ffffff;
 }
 .main {
-    padding: 10px;
+    padding: 0px;
 }
 .festival-banner {
     display: block;
@@ -126,7 +126,7 @@ body {
 }
 .section {
     margin: 0;
-    padding: 0;
+    padding: 10px;
 }
 .section__header {
     margin: 0;
@@ -165,7 +165,7 @@ body {
 .register__button, .register__button:visited, .register__button:active {
     display: flex;
     margin: 0;
-    padding:  6px 0 0;
+    padding: 6px 0 0;
     width: 100px;
     min-width: 100px;
     height: 100px;
