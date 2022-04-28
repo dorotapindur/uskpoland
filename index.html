@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pl-PL">
+<html lang="pl-PL" id="html">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -15,11 +15,11 @@
 </head>
 <body>
     <header class="header">
-        <img src="./uskpoland_logo.svg" alt="logo of Urban Sketchers Poland">
+        <img class="logo" src="./uskpoland_logo.svg" alt="logo of Urban Sketchers Poland">
         <h1 class="header__title">Urban Sketchers Poland</h1>
         <nav class="nav">
             <button class="menu-button menu-button--js" aria-label="otwórz menu">
-                <img src="./open_menu.svg" alt="open menu"><!--zamieniaj js-em inner html na close_menu.svg-->
+                <img class="menu-img" src="./open_menu.svg" alt="open menu"><!--zamieniaj js-em inner html buttona na close_menu.svg-->
             </button>
             <div class="menu">
                 <a class="menu__item" href="#festival">Festiwal</a>
@@ -27,7 +27,7 @@
                 <a class="menu__item" href="#events">Wydarzenia</a>
                 <a class="menu__item" href="#contact">Kontakt</a>
             </div>
-            <p><a href="./index.html" class="polish-button pl-button--js">PL</a> | <a href="./english.html" class="english-button en-button--js">EN</a></p>
+            <p class="language"><a href="./index.html" class="language__button inactive pl--js">PL</a>|<a href="./english.html" class="language__button en--js">EN</a></p>
         </nav>
     </header>
     <main class="main">
