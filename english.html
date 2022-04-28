@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pl-PL">
+<html lang="en" id="html">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -22,99 +22,100 @@
                 <img class="menu-img" src="./open_menu.svg" alt="open menu"><!--zamieniaj js-em inner html buttona na close_menu.svg-->
             </button>
             <div class="menu">
-                <a class="menu__item" href="#festival">Festiwal</a>
+                <a class="menu__item" href="#festival">Festival</a>
                 <a class="menu__item" href="#uskpoland">USk Poland</a>
-                <a class="menu__item" href="#events">Wydarzenia</a>
-                <a class="menu__item" href="#contact">Kontakt</a>
+                <a class="menu__item" href="#events">Events</a>
+                <a class="menu__item" href="#contact">Contact</a>
             </div>
-            <p class="language"><a href="./index.html" class="language__button pl--js">PL</a>|<a href="./english.html" class="language__button  inactive en--js">EN</a></p>
+            <p class="language"><a href="./index.html" class="language__button pl--js" aria-label="switch to Polish">PL</a>|<a href="./english.html" class="language__button inactive en--js" aria-label="switch to English">EN</a></p>
         </nav>
     </header>
     <main class="main">
         <section id="festival" class="section"><!--Festiwal-->
-            <div class="festival-banner"></div><!--kwadratowy lub płaski - bckgr image media queries w css-->
+            <img class="festival-banner banner--js" src="./flat_banner.jpg" alt="festival banner"></img><!--kwadratowy lub płaski - bckgr image media queries w css-->
             <h2 class="section__header">Urban Sketching Festival</h2>
-            <p class="section__text">Urban Sketcherzy z Polski i Europy, łączmy się! Zapraszamy na pierwszy międzynarodowy Festiwal Miejskiego Szkicowania w Świdnicy - od 11 do 14 sierpnia 2022 to piękne miasto na Dolnym Śląsku wypełni się amatorami rysowania w terenie. Rysunkowe spotkania wśród zabytków, plenerowe warsztaty, wystawa, prelekcje, targi materiałów plastycznych to tylko niektóre atrakcje, będzie też okazja poznać ciekawych ludzi i dołączyć do międzynarodowej społeczności podziwiającej świat ze szkicownikiem w ręku. Udział w festiwalu jest całkowicie darmowy i można uczestniczyć w dowolnej ilości dni i wydarzeń. Ze względu na ograniczoną ilość uczestników obowiązują zapisy na darmowe warsztaty plenerowe, które poprowadzą: Justyna Wojnowska, Adam Michen, Krzysztof Ludwin oraz Jan Vitek z Pragi.</p>
-            <p class="section__text">Organizatorzy: Urban Sketchers Poland, Świdnicki Ośrodek Kultury oraz międzynarodowa organizacja Urban Sketchers.</p>
+            <p class="section__text">Urban Sketchers from Poland and Europe, let’s unite! We invite you to the first international Urban Sketching Festival in Świdnica - from <b>11 to 14 August 2022</b> this beautiful city in Lower Silesia, Poland, will be filled with amateurs of sketching on location. Drawing meetings among monuments, open-air workshops, exhibition, lectures, art materials fair are just some of the attractions; there will also be an opportunity to meet interesting people and join the international community admiring the world with a sketchbook in hand. Participation in the festival is completely free and you can take part in any number of events. Due to the limited number of participants, there is a registration for free open-air workshops that will be conducted by Justyna Wojnowska, Adam Michen, Krzysztof Ludwin and Jan Vitek from Prague.</p>
+            <p class="section__text">Organizers: Urban Sketchers Poland, Świdnica Cultural Center and the international organization Urban Sketchers.</p>
         </section>
         <section class="section"><!--Program festiwalu-->
-            <h2 class="section__header">Program Festiwalu</h2>
-            <p class="section__text"><b>11 sierpnia 2022 - czwartek</b></p>
+            <h2 class="section__header">Official Festival Program</h2>
+            <p class="section__text--date">August 11, 2022 - Thursday</p>
             <ul class="program-list">
-                <li class="program-list__item">17:00 - Oficjalne rozpoczęcie Festiwalu w Galerii Fotografii Świdnickiego Ośrodka Kultury</li>
-                <li class="program-list__item">17:30 - 20:00 - Prelekcja i warsztaty wprowadzające do urban sketchingu, prowadzone przez Justynę Wojnowską na Rynku</li>
-                <li class="program-list__item">20:00 - Rozdanie nagrody-niespodzianki i wspólne zdjęcie uczestników Festiwalu na Rynk</li>
-                <li class="program-list__item">20:00 - Drink&draw, czyli spotkanie zapoznawcze uczestników festiwalu, zbiórka na Rynku</li>
+                <li class="program-list__item">17:00 - Official opening of the Festival at the Photography Gallery of the Świdnica Cultural Center</li>
+                <li class="program-list__item">17:30 - 20:00 - the Introduction to Urban Sketching lecture and workshop, conducted by Justyna Wojnowska at the Market Square</li>
+                <li class="program-list__item">20:00 - Surprise-prize giveaway and a joint photo of the Festival participants at the Market Square</li>
+                <li class="program-list__item">20:00 - Drink & draw - introductory meeting of festival participants, meeting point at the Market Square</li>
             </ul>
-            <p class="section__text"><b>12 sierpnia 2022 - piątek</b></p>
+            <p class="section__text--date">August 12, 2022 - Friday</p>
             <ul class="program-list">
-                <li class="program-list__item">10:00 - 12:00 - Wspólne zwiedzanie Świdnicy z lokalnym artystą i przewodnikiem, zbiórka na Rynku przy Galerii Fotografii</li>
-                <li class="program-list__item">12:00 - 13:00 - Prelekcja w Galerii Fotografii Świdnickiego Ośrodka Kultury na temat szkicowania w podróży, prowadzona przez Katarzynę Kosiak, Dorotę Pindur i Justynę Wojnowską</li>
-                <li class="program-list__item">16:00 - 18:00 - Warsztaty urban sketchingu przy Kościele Pokoju, prowadzone przez Adama Michena</li>
-                <li class="program-list__item">18:00 - 19:30 - Sketch-walk, czyli spotkanie rysunkowe w plenerze, zbiórka przy Kościele Pokoju</li>
-                <li class="program-list__item">19:30 - Rozdanie nagród i wspólne zdjęcie uczestników Festiwalu przy Kościele Pokoju</li>
-                <li class="program-list__item">20:00 - Drink&draw w formie rysunkowego pikniku, czyli spotkanie uczestników festiwalu w Parku Centralnym</li>
+                <li class="program-list__item">10:00 - 12:00 - Visiting Świdnica together with a local artist and guide, meeting point at the Market Square next to the Photography Gallery of the Świdnica Cultural Center</li>
+                <li class="program-list__item">12:00 - 13:00 - Presentation at the Photography Gallery about Sketching during Travels, led by Katarzyna Kosiak, Dorota Pindur and Justyna Wojnowska</li>
+                <li class="program-list__item">16:00 - 18:00 - Urban Sketching workshops at the Church of Peace (UNESCO), conducted by Adam Michen</li>
+                <li class="program-list__item">18:00 - 19:30 - Sketch-walk - a drawing meeting in the open air, meeting point at the Church of Peace</li>
+                <li class="program-list__item">19:30 - Surprise-prize giveaway and a joint photo of the Festival participants at the Church of Peace</li>
+                <li class="program-list__item">20:00 - Drink & draw in the form of a picnic - a meeting of the Festival participants in the Central Park</li>
             </ul>
-            <p class="section__text"><b>13 sierpnia 2022 - sobota</b></p>
+            <p class="section__text--date">August 13, 2022 - Saturday</p>
             <ul class="program-list">
-                <li class="program-list__item">10:00 - 15:00 - Targi szkicowników, narzędzi i materiałów przydatnych podczas urban sketchingu, Galeria Fotografii Świdnickiego Ośrodka Kultury</li>
-                <li class="program-list__item">11:00 - Prelekcja gościa specjalnego w sali teatralnej Świdnickiego Ośrodka Kultury</li>
-                <li class="program-list__item">16:00 - 18:00 - Warsztaty urban sketchingu z Krzysztofem Ludwinem na Rynku</li>
-                <li class="program-list__item">18:00 - Sketch-walk, czyli spotkanie rysunkowe w plenerze, zbiórka na Rynku</li>
-                <li class="program-list__item">19:30 - Rozdanie nagród i wspólne zdjęcie uczestników Festiwalu pod Wieżą Ratuszową</li>
-                <li class="program-list__item">20:00 - Drink&draw, czyli spotkanie uczestników festiwalu, na którym odbędzie się też wymiana narzędzi między uczestnikami, miejsce spotkania zostanie ogłoszone w późniejszym terminie</li>
+                <li class="program-list__item">10:00 - 15:00 - Fair of sketchbooks, tools and art materials useful for urban sketching, Photography Gallery of the Świdnica Cultural Center</li>
+                <li class="program-list__item">11:00 - Lecture by a special guest in the theater hall of the Świdnica Cultural Center</li>
+                <li class="program-list__item">16:00 - 18:00 - Urban sketching workshops with Krzysztof Ludwin on the Market Square</li>
+                <li class="program-list__item">18:00 - Sketch-walk, meeting point in the Market Square</li>
+                <li class="program-list__item">19:30 - Surprise-prize giveaway and a joint photo of the Festival participants under the Town Hall Tower</li>
+                <li class="program-list__item">20:00 - Drink & draw - a meeting of the Festival participants, during which there will also be a tools exchange, the meeting place to be announced later</li>
             </ul>
-            <p class="section__text"><b>14 sierpnia 2022 - niedziela</b></p>
+            <p class="section__text--date">on August 14, 2022 - Sunday</p>
             <ul class="program-list">
-                <li class="program-list__item">10:00-12:00 - Warsztaty urban sketchingu po angielsku z Janem Vítkiem w Parku Różanym</li>
-                <li class="program-list__item">12:00 - Sketch-walk, czyli spotkanie rysunkowe w plenerze, zbiórka w Parku Różanym</li>
-                <li class="program-list__item">13:30 - Rozdanie nagród i wspólne zdjęcie uczestników Festiwalu w Parku Różanym</li>
-                <li class="program-list__item">16:00 - Wernisaż prac powstałych podczas Festiwalu w Galerii Fotografii Świdnickiego Ośrodka Kultury, wraz z głosowaniem na najbardziej interesujący szkic</li>
-                <li class="program-list__item">16:30 - Ogłoszenie zwycięzców konkursów Festiwalu i oficjalne pożegnanie</li>
+                <li class="program-list__item">10: 00-12: 00 - Urban sketching workshops in English with Jan Vítek in Park Różany (Rose Park)</li>
+                <li class="program-list__item">12:00 - Sketch-walk - an outdoor drawing meeting, assembly point in Rose Park</li>
+                <li class="program-list__item">13:30 - Surprise-prize giveaway and a joint photo of the participants Festival in the Rose Park</li>
+                <li class="program-list__item">16:00 - Vernissage of works created during the Festival in the Photography Gallery of the Świdnica Cultural Center, along with voting for the most interesting sketch</li>
+                <li class="program-list__item">16:30 - Announcement of the winners of the Festival's competitions and official farewell</li>
             </ul>
             <div class="register">
-                <p class="register__text">Darmowa rejestracja na warsztaty</p>
-                <a href="" class="register__button" rel="noopener noreferrer" target=_blank>Zapisz się!</a>
+                <p class="register__text">Free workshops registration:</p>
+                <a href="mailto:uskpoland@gmail.com?subject=USk Festival registration" class="register__button" rel="noopener noreferrer" target=_blank>Register now!</a>
             </div>
-            <p class="section__text">W trakcie całego festiwalu będzie można zobaczyć wystawę szkiców polskich Urban Sketcherów w Galerii Fotografii Świdnickiego Ośrodka Kultury. Rysunki powstałe w trakcie festiwalu również się na niej znajdą.</p>
+            <p class="section__text">During the entire festival, you will be able to see an exhibition of drawings of Polish Urban Sketchers at the Photography Gallery of the Świdnica Cultural Center. Sketches made during the festival will also be included.</p>
         </section>
         <section id="uskpoland" class="section"><!--usk Poland-->
             <h2 class="section__header">Urban Sketchers Poland</h2>
-            <p class="section__text">KIM JESTESMY?: Jesteśmy grupą promującą szkicowanie w przestrzeni miejskiej, zrzeszającą miłośników rysunku na każdym poziomie zaawansowania. Urban Sketchers to oddolna inicjatywa, która jest realizowana na całym świecie, a jej kolebką jest Seattle.</p>
-            <p class="section__text">CO ROBIMY?: Szkicujemy wszelkimi dostępnymi technikami otaczający nas świat, opierając się na bezpośredniej obserwacji i doświadczeniu bycia w danym miejscu. Publikujemy nasze prace w internecie i wspieramy się w twórczym rozwoju, tworząc jedyną w swoim rodzaju międzynarodową społeczność.
-            </p>
-            <p class="section__text">DLA KOGO?: Nasze spotkania rysunkowe są dla każdego, niezależnie od wieku, poglądów i umiejętności - wystarczy jedynie lubić rysować (lub malować).
-            Chcemy pokazywać świat widziany naszymi oczami przez każdy kolejny rysunek, który tworzymy.</p>
-            <p class="section__text">Manifest, którego przestrzegamy podczas rysowania:</p>
+            <p class="section__text"><b>WHO WE ARE? </b>We are a group promoting sketching on location in urban spaces, bringing together drawing enthusiasts of all skill levels. Urban Sketchers is a grassroots initiative that is implemented around the world, and its cradle is Seattle.</p>
+            <p class="section__text"><b>WHAT WE DO? </b> We sketch the world around us using all available techniques, basing on direct observation and the experience of being in a given place. We publish our works on the Internet and support each other in creative development, creating a unique international community.</p>
+            <p class="section__text"><b>FOR WHOM? </b> Our drawing meetings are for everyone, regardless of age, opinions and skills - all you need to do is to like to draw (or paint).
+            We want to show the world seen through our eyes, one sketch at a time.</p>
+            <p class="section__text">We sketch in the spirit of our <b>manifesto</b>.</p>
             <ul class="list list--manifest">
-                <li class="list__item">Rysujemy na miejscu (na zewnątrz lub w budynkach), starając się uchwycić to, co widzimy w wyniku naszej bezpośredniej obserwacji.</li>
-                <li class="list__item">Nasze rysunki opowiadają historię naszego otoczenia, miejsc w których żyjemy i gdzie podróżujemy.</li>
-                <li class="list__item">Nasze rysunki są kroniką konkretnego czasu i miejsca.</li>
-                <li class="list__item">Wiernie oddajemy sceny, których jesteśmy świadkami.</li>
-                <li class="list__item">Korzystamy z wszelkich materiałów i pielęgnujemy nasz indywidualny styl.</li>
-                <li class="list__item">Wspieramy się wzajemnie i rysujemy wspólnie.</li>
-                <li class="list__item">Pokazujemy swoje prace w Internecie.</li>
-                <li class="list__item">Pokazujemy świat, przez każdy kolejny rysunek, który tworzymy.</li>
+                <li class="list__item">We draw on location, indoors or out, capturing what we see from direct observation.</li>
+                <li class="list__item">Our drawings tell the story of our surroundings, the places we live, and where we travel.</li>
+                <li class="list__item">Our drawings are a record of time and place.</li>
+                <li class="list__item">We are truthful to the scenes we witness.</li>
+                <li class="list__item">We use any kind of media and cherish our individual styles.</li>
+                <li class="list__item">We support each other and draw together.</li>
+                <li class="list__item">We share our drawings online.</li>
+                <li class="list__item">We show the world, one drawing at a time.</li>
             </ul>
-            <p id="events" class="section__text--bigger">Informacje o spotkaniach i innych organizowanych przez nas wydarzeniach znajdziecie <a href="https://www.facebook.com/groups/uskpoland/events" class="link" rel="noopener noreferrer" target=_blank>tutaj</a>.</p>
+            <p id="events" class="section__text--bigger">Information about meetings and other events organized by us can be found <a href="https://www.facebook.com/groups/uskpoland/events" class="link" aria-label="in this link to our Facebook page" rel="noopener noreferrer" target=_blank>here</a>.</p>
         </section>
         <section id="contact" class="section"><!--Kontakt-->
-            <h2 class="section__header">Kontakt</h2>
-            <div class="contact__item">
-                <img src="./facebook_icon.svg" alt="facebook icon">
-                <a href="" class="link" rel="noopener noreferrer" target=_blank>Urban Sketchers Poland (grupa)</a>
+            <h2 class="section__header">Contact</h2>
+            <div class="contact__box">
+                <div class="contact__item">
+                    <img src="./facebook_icon.svg" alt="facebook icon" class="contact__icon">
+                    <a href="https://www.facebook.com/groups/uskpoland" class="link" rel="noopener noreferrer" target=_blank>Urban Sketchers Poland (grupa)</a>
+                </div>
+                <div class="contact__item">
+                    <img src="./insta_icon.svg" alt="instagram icon" class="contact__icon">
+                    <a href="https://www.instagram.com/uskpoland/" class="link" rel="noopener noreferrer" target=_blank>uskpoland</a>
+                </div>
+                <div class="contact__item">
+                    <img src="./email_icon.svg" alt="email icon" class="contact__icon">
+                    <a href="mailto:uskpoland@gmail.com" class="link" rel="noopener noreferrer" target=_blank>uskpoland@gmail.com</a>
+                </div>
             </div>
-            <div class="contact__item">
-                <img src="./insta_icon.svg" alt="instagram icon">
-                <a href="" class="link" rel="noopener noreferrer" target=_blank>uskpoland</a>
-            </div>
-            <div class="contact__item">
-                <img src="./email_icon.svg" alt="email icon">
-                <a href="" class="link" rel="noopener noreferrer" target=_blank>uskpoland@gmail.com</a>
-            </div>
-            <p class="section__text">Urban Sketchers jest organizacją non-profit mającą na celu szerzenie artystycznych, historycznych i edukacyjnych wartości wynikających z rysowania miejskich lokalizacji, promowanie swoich działań oraz łączenie ludzi na całym świecie, którzy rysują na żywo, w terenie (tam gdzie znajduje się to, co rysują) w miejscach, gdzie żyją i podróżują.</p>
-            <p class="section__text">Urban Sketchers Poland jest lokalną grupą tej organizacji, a jej celem jest działanie oraz szerzenie powyższych wartości i idei w Polsce.</p>
-            <p class="section__text">Więcej informacji: <a href="https://www.urbansketchers.org" class="link" rel="noopener noreferrer" target=_blank>www.urbansketchers.org</a></p>
+            <p class="section__text">Urban Sketchers is a non-profit organization and it's mission is to raise the artistic, storytelling, and educational value of on-location drawing, promoting its practice and connecting people worldwide who draw on location where they live and travel.</p>
+            <p class="section__text">Urban Sketchers Poland is a local chapter of this organization, and its goal is to spread the above mentioned values and ideas in Poland.</p>
+            <p class="section__text">More information: <a href="https://www.urbansketchers.org" class="link" rel="noopener noreferrer" target=_blank>www.urbansketchers.org</a></p>
         </section>
     </main>
     <footer class="footer">
