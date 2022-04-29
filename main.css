@@ -139,11 +139,23 @@ body {
 }
 @media screen and (min-width: 520px) {
     .banner {
-        display: block;
+    display: block;
     max-width: 100%;
     width: 100vw;
     height: calc(100vw * 0.523);
     margin: 0 auto;
+    background-image: url(./flat_banner.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-clip: border-box;
+    }
+}
+@media screen and (min-width: 1000px) {
+    .banner {
+    display: block;
+    width: 1000px;
+    height: 523px;
+    margin: 0;
     background-image: url(./flat_banner.jpg);
     background-repeat: no-repeat;
     background-position: center;
