@@ -14,7 +14,3 @@ menuButton.addEventListener('click', () => {
     }
 });
 
-const banner = document.querySelector('.banner--js');
-if (window.innerWidth < 560) {
-    banner.src = './square_banner.jpg';
-}

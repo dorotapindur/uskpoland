@@ -8,6 +8,7 @@ html {
     margin: 0;
     padding: 0;
     background-color: #a5e2dd;
+    scroll-behavior: smooth;
 }
 * {
     -webkit-font-smoothing: antialiased;
@@ -48,6 +49,11 @@ body {
 .logo {
     width: auto;
     height: 70px;
+}
+@media screen and (max-width: 250px) {
+    .logo {
+        height: 20vw;
+    }
 }
 .nav {
     height: 70px;
@@ -119,10 +125,30 @@ body {
 .main {
     padding: 0px;
 }
-.festival-banner {
+.banner {
     display: block;
     max-width: 100%;
+    width: 100vw;
+    height: 100vw;
     margin: 0 auto;
+    background-image: url(./square_banner.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-clip: border-box;
+    background-size: contain;
+}
+@media screen and (min-width: 520px) {
+    .banner {
+        display: block;
+    max-width: 100%;
+    width: 100vw;
+    height: calc(100vw * 0.523);
+    margin: 0 auto;
+    background-image: url(./flat_banner.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-clip: border-box;
+    }
 }
 .section {
     margin: 0;
@@ -157,6 +183,11 @@ body {
     align-items: center;
     max-width: 450px;
     justify-self: center;
+}
+@media screen and (max-width: 250px) {
+    .register {
+        flex-flow: column;
+    }
 }
 .register__text {
     font-size: 1.2rem;
@@ -206,6 +237,7 @@ body {
 .contact__box {
     padding: 0;
     margin: 0 0 1rem;
+    word-break: break-all;
 }
 .contact__item {
     display: flex;
@@ -214,6 +246,11 @@ body {
 }
 .contact__icon {
     margin: 0 10px 0 0;
+}
+@media screen and (max-width: 250px) {
+    .longlink {
+        word-break: break-all;
+    }
 }
 .footer {
     margin: 0;
