@@ -123,12 +123,13 @@ body {
     color: #ffffff;
 }
 .main {
+    width: 100%;
     padding: 0px;
 }
 .banner {
     display: block;
     max-width: 100%;
-    width: 100vw;
+    width: 10vw;
     height: 100vw;
     margin: 0 auto;
     background-image: url(./square_banner.jpg);
