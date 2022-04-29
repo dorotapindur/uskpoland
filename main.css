@@ -224,16 +224,16 @@ body {
     text-align: center;
     color: #03579a;
     transition: color 0.2s ease-in;
-    animation: color-pulse 1s ease-in-out infinite alternate both;
+    /*animation: color-pulse 1s ease-in-out infinite alternate both;*/
 }
-@keyframes color-pulse {
+/*@keyframes color-pulse {
     0% {
     background-color: #eb6315;  
     }
     100% {
     background-color: #fc7426;
     }
-}
+}*/
 .register__button:hover {
     color: #259dff;
     transition: color 0.2s ease-in;
