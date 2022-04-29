@@ -120,7 +120,7 @@ body {
     font-size: 1rem;
 }
 .inactive {
-    color: #ffffff;
+    color: #979797;
 }
 .main {
     width: 100%;
@@ -222,7 +222,7 @@ body {
     font-weight: bold;
     font-size: 1.2rem;
     text-align: center;
-    color: #03579a;
+    color: #004175;
     transition: color 0.2s ease-in;
     /*animation: color-pulse 1s ease-in-out infinite alternate both;*/
 }
@@ -235,7 +235,7 @@ body {
     }
 }*/
 .register__button:hover {
-    color: #259dff;
+    color: #0077d8;
     transition: color 0.2s ease-in;
 }
 .list--manifest {
@@ -243,9 +243,15 @@ body {
     margin: 0;
     padding: 10px 0 0 20px;
 }
-.link {
+.link, .link:active, .link:visited {
     text-decoration: none;
-    color: #237fd4;
+    color: #03579a;
+    font-weight: bold;
+    transition: color 0.2s ease-in;
+}
+.link:hover {
+    color: #49adff;
+    transition: color 0.2s ease-in;
 }
 .contact__box {
     padding: 0;
