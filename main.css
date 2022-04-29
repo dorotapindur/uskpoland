@@ -154,11 +154,11 @@ body {
     .banner {
     display: block;
     width: 1000px;
-    height: 523px;
+    height: 524px;
     margin: 0;
     background-image: url(./flat_banner.jpg);
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: top;
     background-clip: border-box;
     }
 }
