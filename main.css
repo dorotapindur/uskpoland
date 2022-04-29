@@ -121,6 +121,7 @@ body {
 }
 .inactive {
     color: #ffffff;
+    cursor: default;
 }
 .main {
     width: 100%;
