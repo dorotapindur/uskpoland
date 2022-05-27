@@ -242,11 +242,11 @@ body {
 }
 .sponsors {
     display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-      gap: 10px;
-      justify-items: center;
-      padding: 0;
-      margin: 0;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 10px;
+    justify-items: center;
+    padding: 0;
+    margin: 0;
 }
 .sponsors__logo {
     width: 150px;
