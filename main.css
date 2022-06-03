@@ -201,15 +201,9 @@ body {
     margin: 10px auto;
     padding: 0;
     display: flex;
-    justify-content: space-between;
+    flex-flow: column;
+    justify-content: center;
     align-items: center;
-    max-width: 450px;
-    justify-self: center;
-}
-@media screen and (max-width: 250px) {
-    .register {
-        flex-flow: column;
-    }
 }
 .register__text, .sponsors__text {
     font-size: 1.2rem;
@@ -218,14 +212,12 @@ body {
 }
 .register__button, .register__button:visited, .register__button:active {
     display: flex;
-    margin: 0;
+    margin: 0 0 20px 0;
     padding: 0;
-    width: 100px;
-    min-width: 100px;
-    height: 100px;
-    min-height: 100px;
-    background-color: #eb6315;
-    border-radius: 50%;
+    width: 150px;
+    height: 50px;
+    background-color: #61beb7;
+    border-radius: 5px;
     align-items: center;
     justify-content: center;
     text-decoration: none;
@@ -234,19 +226,42 @@ body {
     text-align: center;
     color: #004175;
     transition: color 0.2s ease-in;
-    /*animation: color-pulse 1s ease-in-out infinite alternate both;*/
 }
-/*@keyframes color-pulse {
-    0% {
-    background-color: #eb6315;  
-    }
-    100% {
-    background-color: #fc7426;
-    }
-}*/
 .register__button:hover {
     color: #0077d8;
     transition: color 0.2s ease-in;
+}
+.register-workshops {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-self: center;
+    justify-items: center;
+}
+.workshops-image {
+    width: 100vw;
+    max-width: 350px;
+    height: auto;
+    margin-bottom: 5px;
+}
+.workshop-button {
+    background-color: #ff6600;
+    margin-bottom: 35px;
+}
+@media screen and (min-width: 600px) {
+    .register-workshops {
+        display: grid;
+        grid-template-columns: 350px 1fr;
+        column-gap: 10px;
+        justify-self: center;
+        justify-items: start;
+        align-items: center;
+    }
+    .workshops-image {
+        margin-bottom: 20px;
+    }
+    .workshop-button {
+        margin-top: 125px;
+    }
 }
 .sponsors {
     display: grid;
