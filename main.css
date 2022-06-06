@@ -243,7 +243,7 @@ body {
     height: auto;
     margin-bottom: 5px;
 }
-.workshop-button, .workshop-button:visited, .workshop-button:active {
+.workshop-button, .workshop-button:visited, .workshop-button:hover, .workshop-button:active {
     background-color: #ff6600;
     margin-bottom: 35px;
 }
@@ -259,7 +259,7 @@ body {
     .workshops-image {
         margin-bottom: 20px;
     }
-    .workshop-button {
+    .workshop-button, .workshop-button:visited, .workshop-button:hover, .workshop-button:active {
         margin-top: 125px;
     }
 }
