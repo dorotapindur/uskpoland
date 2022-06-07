@@ -263,6 +263,9 @@ body {
         margin-top: 125px;
     }
 }
+.inactive-button {
+    opacity: 0.5;
+}
 .sponsors {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
