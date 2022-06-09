@@ -233,21 +233,46 @@ body {
 }
 .register-workshops {
     display: grid;
+    row-gap: 20px;
     grid-template-columns: 1fr;
     justify-self: center;
     justify-items: center;
 }
+.workshops-image-background {
+    width: calc(100vw - 20px);
+    max-width: 1000px;
+    background-color: #a5e2dd;
+    display: flex;
+    justify-content: center;
+}
+@media screen and (min-width: 1000px) {
+    .workshops-image-background {
+        width: 980px;
+    }
+}
 .workshops-image {
-    width: 100vw;
+    width: calc(100vw - 20px);
     max-width: 350px;
     height: auto;
-    margin-bottom: 5px;
+}
+.materials {
+    height: auto;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.materials-text {
+    margin: 0 0 10px;
+}
+.materials-list {
+    margin: 5px 0;
 }
 .workshop-button, .workshop-button:visited, .workshop-button:hover, .workshop-button:active {
     background-color: #ff6600;
-    margin-bottom: 35px;
+    margin: 10px 0 35px 0;
 }
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 800px) {
     .register-workshops {
         display: grid;
         grid-template-columns: 350px 1fr;
@@ -256,15 +281,24 @@ body {
         justify-items: start;
         align-items: center;
     }
+    .workshops-image-background {
+        display: block;
+        background-color: white;
+    }
     .workshops-image {
-        margin-bottom: 20px;
+        margin-bottom: 0;
+    }
+    .materials {
+        height: 350px;
+        align-items: flex-start;
     }
     .workshop-button, .workshop-button:visited, .workshop-button:hover, .workshop-button:active {
-        margin-top: 125px;
+        margin: 0;
     }
 }
 .inactive-button {
     opacity: 0.5;
+    cursor: not-allowed;
 }
 .sponsors {
     display: grid;
