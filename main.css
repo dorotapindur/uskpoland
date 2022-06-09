@@ -265,7 +265,6 @@ body {
 }
 .inactive-button {
     opacity: 0.5;
-    cursor: not-allowed;
 }
 .sponsors {
     display: grid;
