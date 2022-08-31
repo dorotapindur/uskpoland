@@ -1,0 +1,12 @@
+{
+  "name": "uskpoland",
+  "version": "0.0.1",
+  "description": "uskpoland website",
+  "main": "./main/src/index.html",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dorotapindur/uskpoland.git"
+  },
+  "license": "ISC",
+  "homepage": "https://github.com/dorotapindur/uskpoland#readme"
+}
