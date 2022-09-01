@@ -127,13 +127,30 @@ body {
     width: 100%;
     padding: 0px;
 }
+.banner-uskpoland {
+    display: block;
+    max-width: 100%;
+    width: 100vw;
+    height: calc(100vw * 0.65);
+    margin: 0 auto;
+    background-image: url(../images/group_photo_uskpoland.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-clip: border-box;
+    background-size: contain;
+}
+@media screen and (min-width: 1000px) {
+    .banner-uskpoland {
+    height: 655px;
+    }
+}
 .banner {
     display: block;
     max-width: 100%;
     width: 100vw;
     height: 100vw;
     margin: 0 auto;
-    background-image: url(./square_banner.jpg);
+    background-image: url(../images/square_banner.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-clip: border-box;
@@ -146,7 +163,7 @@ body {
     width: 100vw;
     height: calc(100vw * 0.523);
     margin: 0 auto;
-    background-image: url(./flat_banner.jpg);
+    background-image: url(../images/flat_banner.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-clip: border-box;
@@ -158,7 +175,7 @@ body {
     width: 1000px;
     height: 524px;
     margin: 0;
-    background-image: url(./flat_banner.jpg);
+    background-image: url(../images/flat_banner.jpg);
     background-repeat: no-repeat;
     background-position: top;
     background-clip: border-box;
