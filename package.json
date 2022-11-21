@@ -2,7 +2,7 @@
   "name": "uskpoland",
   "version": "0.0.1",
   "description": "uskpoland website",
-  "main": "./main/src/index.html",
+  "main": "./index.html",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/dorotapindur/uskpoland.git"

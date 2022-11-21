@@ -5,12 +5,11 @@ let isOpen = false;
 menuButton.addEventListener('click', () => {
     if (isOpen) {
         menu.classList.remove('menu-open');
-        menuButton.innerHTML = '<img class="menu-img" src="main/images/open_menu.svg" alt="close menu.">';
+        menuButton.innerHTML = '<img class="menu-img" src="../images/open_menu.svg" alt="close menu.">';
         isOpen = false;
     } else {
         menu.classList.add('menu-open');
-        menuButton.innerHTML = '<img class="menu-img" src="main/images/close_menu.svg" alt="open menu.">';
+        menuButton.innerHTML = '<img class="menu-img" src="../images/close_menu.svg" alt="open menu.">';
         isOpen = true;
     }
 });
-

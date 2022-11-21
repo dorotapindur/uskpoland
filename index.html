@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="../css/normalize.css" rel="stylesheet" type="text/css">
-    <link href="../css/main.css" rel="stylesheet" type="text/css">
-    <link href="./favicon.png" rel="shortcut icon" type="svg">
+    <link href="./main/css/normalize.css" rel="stylesheet" type="text/css">
+    <link href="./main/css/main.css" rel="stylesheet" type="text/css">
+    <link href="./main/images/favicon.png" rel="shortcut icon" type="svg">
     <title>Urban Sketchers Poland</title>
     <meta name="Description" content="Oficjalna strona Urban Sketchers Poland">
     <meta property="og:title" content="Urban Sketchers Poland">
@@ -15,18 +15,18 @@
 </head>
 <body>
     <header class="header">
-        <img class="logo" src="../images/uskpoland_logo.svg" alt="logo of Urban Sketchers Poland." width="218" height="70">
+        <img class="logo" src="./main/images/uskpoland_logo.svg" alt="logo of Urban Sketchers Poland." width="218" height="70">
         <h1 class="header__title" lang="en">Urban Sketchers Poland</h1>
         <nav class="nav">
             <button class="menu-button menu-button--js" aria-label="otwórz menu">
-                <img class="menu-img" src="../images/open_menu.svg" alt="open menu." width="23" height="36"><!--zamieniaj js-em inner html buttona na close_menu.svg-->
+                <img class="menu-img" src="./main/images/open_menu.svg" alt="open menu." width="23" height="36"><!--zamieniaj js-em inner html buttona na close_menu.svg-->
             </button>
             <div class="menu">
-                <a class="menu__item" href="./festiwal.html">Festiwal</a>
+                <a class="menu__item" href="./main/src/festiwal.html">Festiwal</a>
                 <a class="menu__item" href="#uskpoland">USk Poland</a>
                 <a class="menu__item" href="#contact">Kontakt</a>
             </div>
-            <p class="language"><span class="language__button inactive">PL</span>|<a href="./english.html" class="language__button en --js" lang="en" aria-label="switch to English">EN</a></p>
+            <p class="language"><span class="language__button inactive">PL</span>|<a href="./main/src/english.html" class="language__button en --js" lang="en" aria-label="switch to English">EN</a></p>
         </nav>
     </header>
     <main class="main">
@@ -53,30 +53,30 @@
         </section>
         <section id="festiwal" class="section"><!--Festiwal-->
             <h2 class="section__header">Festiwal Miejskiego Szkicowania w Świdnicy, 11-14.08.2022</h2>
-            <p>O naszym festiwalu możecie przeczytać <a class="link" href="./festiwal.html" rel="noopener noreferrer"
+            <p>O naszym festiwalu możecie przeczytać <a class="link" href="./main/src/festiwal.html" rel="noopener noreferrer"
                                                        target=_blank
                                                        aria-label="">tutaj</a>.</p>
         <section id="contact" class="section"><!--Kontakt-->
             <h2 class="section__header">Kontakt</h2>
             <div class="contact__box">
                 <div class="contact__item">
-                    <img src="../images/facebook_icon.svg" alt="facebook icon." class="contact__icon" width="35" height="35">
+                    <img src="./main/images/facebook_icon.svg" alt="facebook icon." class="contact__icon" width="35" height="35">
                     <a href="https://www.facebook.com/groups/uskpoland" class="link" rel="noopener noreferrer" target=_blank>Urban Sketchers Poland (grupa)</a>
                 </div>
                 <div class="contact__item">
-                    <img src="../images/facebookpage_icon.svg" alt="facebook page icon." class="contact__icon" width="35" height="35">
+                    <img src="./main/images/facebookpage_icon.svg" alt="facebook page icon." class="contact__icon" width="35" height="35">
                     <a href="https://www.facebook.com/urbansketcherspoland" class="link" rel="noopener noreferrer" target=_blank>Urban Sketchers Poland</a>
                 </div>
                 <div class="contact__item">
-                    <img src="../images/fest_icon.svg" alt="festival icon." class="contact__icon" width="35" height="35">
+                    <img src="./main/images/fest_icon.svg" alt="festival icon." class="contact__icon" width="35" height="35">
                     <a href="https://www.facebook.com/Urban-Sketching-Festival-%C5%9Awidnica-108153451883144" class="link" rel="noopener noreferrer" target=_blank>Festiwal Miejskiego Szkicowania</a>
                 </div>
                 <div class="contact__item">
-                    <img src="../images/insta_icon.svg" alt="instagram icon." class="contact__icon" width="35" height="35">
+                    <img src="./main/images/insta_icon.svg" alt="instagram icon." class="contact__icon" width="35" height="35">
                     <a href="https://www.instagram.com/uskpoland/" class="link" rel="noopener noreferrer" target=_blank>uskpoland</a>
                 </div>
                 <div class="contact__item">
-                    <img src="../images/email_icon.svg" alt="email icon." class="contact__icon" width="35" height="35">
+                    <img src="./main/images/email_icon.svg" alt="email icon." class="contact__icon" width="35" height="35">
                     <a href="mailto:uskpoland@gmail.com" class="link" rel="noopener noreferrer" target=_blank>uskpoland@gmail.com</a>
                 </div>
             </div>
@@ -88,6 +88,6 @@
     <footer class="footer">
         <p class="footer__text">Urban Sketchers Poland 2022</p>
     </footer>
-    <script src="./main.js"></script>
+    <script src="./main/src/main.js"></script>
 </body>
 </html>
