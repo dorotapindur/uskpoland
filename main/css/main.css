@@ -464,3 +464,9 @@ body {
   from {opacity: .4}
   to {opacity: 1}
 }
+
+iframe {
+    display: block;
+    margin: 5px 0;
+    max-width: calc(100vw - 20px);
+}
