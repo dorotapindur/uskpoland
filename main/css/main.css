@@ -7,7 +7,7 @@ html {
     color: black;
     margin: 0;
     padding: 0;
-    background-color: #a5e2dd;
+    background-color: #7fc3a1ff;
     scroll-behavior: smooth;
 }
 * {
@@ -30,7 +30,7 @@ body {
     height: 110px;
     margin: 0;
     padding: 20px;
-    background: #a5e2dd;
+    background: #7fc3a1ff;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -131,9 +131,9 @@ body {
     display: block;
     max-width: 100%;
     width: 100vw;
-    height: calc(100vw * 0.65);
+    height: calc(100vw * 0.53);
     margin: 0 auto;
-    background-image: url(../images/group_photo_uskpoland.jpg);
+    background-image: url(../images/2023savethedate_horizontal.jpg);
     background-repeat: no-repeat;
     background-position: top center;
     background-clip: border-box;
@@ -141,7 +141,7 @@ body {
 }
 @media screen and (min-width: 1000px) {
     .banner-uskpoland {
-    height: 655px;
+    height: 530px;
     }
 }
 .banner {
@@ -189,7 +189,7 @@ body {
     margin: 0;
     padding: 1rem 0;
     font-size: 1.3rem;
-    color: #ff4800;
+    color: #bc3c8aff;
     text-align: center;
     font-weight: bolder;
 }
@@ -233,7 +233,7 @@ body {
     padding: 5px;
     width: 150px;
     height: 50px;
-    background-color: #61beb7;
+    background-color: #7fc3a1ff;
     border-radius: 5px;
     align-items: center;
     justify-content: center;
@@ -258,7 +258,7 @@ body {
 .workshops-image-background {
     width: calc(100vw - 20px);
     max-width: 1000px;
-    background-color: #a5e2dd;
+    background-color: #7fc3a1ff;
     display: flex;
     justify-content: center;
 }
@@ -369,7 +369,7 @@ body {
     margin: 0;
     padding: 10px;
     text-align: center;
-    background-color: #a5e2dd;
+    background-color: #7fc3a1ff;
 }
 .footer__text {
     margin: 0;
