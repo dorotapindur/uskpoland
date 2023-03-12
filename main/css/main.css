@@ -120,7 +120,7 @@ body {
     font-size: 1rem;
 }
 .inactive {
-    color: #ffffff;
+    color: #ffffff8c;
     cursor: default;
 }
 .main {
@@ -133,7 +133,7 @@ body {
     width: 100vw;
     height: calc(100vw * 0.53);
     margin: 0 auto;
-    background-image: url(../images/festival/FB_USK_Festwal_2023.jpg);
+    background-image: url(../images/2023graphic/2023FestivalBanner.jpg);
     background-repeat: no-repeat;
     background-position: top center;
     background-clip: border-box;
@@ -141,7 +141,7 @@ body {
 }
 @media screen and (min-width: 1000px) {
     .banner-uskpoland {
-    height: 530px;
+    height: 530px; /*adjust when changing picture*/
     }
 }
 .banner {
@@ -150,7 +150,7 @@ body {
     width: 100vw;
     height: 100vw;
     margin: 0 auto;
-    background-image: url(../images/square_banner.jpg);
+    background-image: url(../images/2022/square_banner.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-clip: border-box;
@@ -163,7 +163,7 @@ body {
     width: 100vw;
     height: calc(100vw * 0.523);
     margin: 0 auto;
-    background-image: url(../images/flat_banner.jpg);
+    background-image: url(../images/2022/flat_banner.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-clip: border-box;
@@ -175,7 +175,7 @@ body {
     width: 1000px;
     height: 524px;
     margin: 0;
-    background-image: url(../images/flat_banner.jpg);
+    background-image: url(../images/2022/flat_banner.jpg);
     background-repeat: no-repeat;
     background-position: top;
     background-clip: border-box;
