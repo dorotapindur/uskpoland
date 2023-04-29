@@ -475,3 +475,16 @@ iframe {
     margin: 5px 0;
     max-width: calc(100vw - 20px);
 }
+
+.blog-photos-container {
+    max-width: 100%;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    gap: 10px 10px;
+}
+
+.blog-photo {
+    width: 450px;
+    max-width: 100%;
+}
