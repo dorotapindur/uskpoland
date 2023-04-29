@@ -479,12 +479,14 @@ iframe {
 .blog-photos-container {
     max-width: 100%;
     display: flex;
-    flex-flow: column;
+    flex: 1fr 1fr;
+    flex-wrap: wrap;
     align-items: center;
+    justify-content: center;
     gap: 10px 10px;
 }
 
 .blog-photo {
-    width: 450px;
+    width:450px;
     max-width: 100%;
 }
