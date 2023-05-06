@@ -73,7 +73,7 @@ body {
     display: flex;
     flex-flow: column;
     align-items: flex-end;
-    width: 120px;
+    width: 125px;
     margin: 0;
     padding: 0;
     position: absolute;
@@ -84,6 +84,7 @@ body {
 }
 .menu__item, .menu__item:visited, .menu__item:active {
     text-decoration: none;
+    text-align: right;
     padding: 10px;
     color: black;
 }
