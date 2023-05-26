@@ -264,11 +264,6 @@ body {
     display: flex;
     justify-content: center;
 }
-@media screen and (min-width: 1000px) {
-    .workshops-image-background {
-        width: 980px;
-    }
-}
 .workshops-image {
     width: calc(100vw - 20px);
     max-width: 350px;
@@ -303,11 +298,6 @@ body {
     }
     .workshops-image {
         margin-bottom: 0;
-    }
-    .materials {
-        height: auto;
-        align-items: flex-start;
-        margin: 0 0 5px;
     }
     .workshop-button, .workshop-button:visited, .workshop-button:hover, .workshop-button:active {
         margin: 20px auto;
