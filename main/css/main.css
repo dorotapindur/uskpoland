@@ -136,6 +136,22 @@ body {
     width: 100%;
     padding: 0px;
 }
+.up-button {
+    display: block;
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    z-index: 3;
+    background: #7fc3a1ff;
+    padding: 5px 5px 0 5px;
+    border-radius: 50% 50% 0 0;
+    border-style: solid;
+    border-width: 2px 2px 0 2px;
+    border-color: #bc3c8aff;
+    font-size: small;
+    text-decoration: none;
+    color: #bc3c8aff;
+}
 .banner-uskpoland {
     display: block;
     max-width: 100%;
