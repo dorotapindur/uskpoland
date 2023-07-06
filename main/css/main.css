@@ -257,6 +257,9 @@ body {
     color: #0077d8;
     transition: color 0.2s ease-in;
 }
+.workshops-article {
+    min-height: 350px;
+}
 .workshops-image-background {
     width: calc(100vw - 20px);
     max-width: 1000px;
