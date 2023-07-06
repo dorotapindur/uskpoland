@@ -500,20 +500,13 @@ iframe {
     width:450px;
     max-width: 100%;
 }
-
-.plan-table-containter {
+.plan {
     width: 100%;
-    display: flex;
-    flex-flow: column;
-    align-items: center;
-}
-
-.plan-table {
-    width: 100%;
-    max-width: 700px;
-    margin: 0 0 50px;
+    height: 500px;
+    margin-bottom: 10px;
 }
 
 .plan-button {
-    margin: 0 0 30px;
+    display: block;
+    margin: 0 auto 30px;
 }
