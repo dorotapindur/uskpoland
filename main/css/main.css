@@ -506,6 +506,12 @@ iframe {
     margin-bottom: 10px;
 }
 
+.plan-table {
+    display: block;
+    max-width: 100%;
+    margin: 0 auto 30px;
+}
+
 .plan-button {
     display: block;
     margin: 0 auto 30px;
