@@ -273,6 +273,12 @@ body {
     color: #0077d8;
     transition: color 0.2s ease-in;
 }
+.workshops-container {
+    display: none;
+}
+.workshops-open {
+    display: block;
+}
 .workshops-article {
     min-height: 350px;
 }
@@ -361,6 +367,7 @@ body {
 .link:hover {
     color: #49adff;
     transition: color 0.2s ease-in;
+    cursor:pointer;
 }
 .contact__box {
     padding: 0;
