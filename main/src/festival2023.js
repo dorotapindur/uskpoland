@@ -1,19 +1,18 @@
-const menuButton = document.querySelector('.menu-button--js');
-const menu = document.querySelector('.menu');
-let isOpen = false;
+const workshopsInfo = document.querySelector('.workshops--js');
+const workshopsContainer = document.querySelector('.workshops-container');
+let workshopsOpen = false;
 
-menuButton.addEventListener('click', () => {
-    if (isOpen) {
-        menu.classList.remove('menu-open');
-        menuButton.innerHTML = '<img class="menu-img" src="main/images/pagegraphic/open_menu.svg" alt="close menu.">';
-        isOpen = false;
-    } else {
-        menu.classList.add('menu-open');
-        menuButton.innerHTML = '<img class="menu-img" src="main/images/pagegraphic/close_menu.svg" alt="open menu.">';
-        isOpen = true;
-    }
+workshopsInfo.addEventListener('click', () => {
+  if (workshopsOpen) {
+      workshopsContainer.classList.remove('workshops-open');
+      workshopsInfo.innerHTML = 'kliknij tutaj';
+      workshopsOpen = false;
+  } else {
+      workshopsContainer.classList.add('workshops-open');
+      workshopsInfo.innerHTML = 'zamknij';
+      workshopsOpen = true;
+  }
 });
-
 
 let slideIndex = 1;
 showSlides(slideIndex);
