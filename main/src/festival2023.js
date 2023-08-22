@@ -5,11 +5,11 @@ let workshopsOpen = false;
 workshopsInfo.addEventListener('click', () => {
   if (workshopsOpen) {
       workshopsContainer.classList.remove('workshops-open');
-      workshopsInfo.innerHTML = 'kliknij tutaj';
+      workshopsInfo.innerHTML = 'kliknij tutaj / click here';
       workshopsOpen = false;
   } else {
       workshopsContainer.classList.add('workshops-open');
-      workshopsInfo.innerHTML = 'zamknij';
+      workshopsInfo.innerHTML = 'zamknij / close';
       workshopsOpen = true;
   }
 });

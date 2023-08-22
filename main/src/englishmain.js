@@ -14,21 +14,7 @@ menuButton.addEventListener('click', () => {
     }
 });
 
-const workshopsInfo = document.querySelector('.workshops--js');
-const workshopsContainer = document.querySelector('.workshops-container');
-let workshopsOpen = false;
 
-workshopsInfo.addEventListener('click', () => {
-  if (workshopsOpen) {
-      workshopsContainer.classList.remove('workshops-open');
-      workshopsInfo.innerHTML = 'click here';
-      workshopsOpen = false;
-  } else {
-      workshopsContainer.classList.add('workshops-open');
-      workshopsInfo.innerHTML = 'close';
-      workshopsOpen = true;
-  }
-});
 
 let slideIndex = 1;
 showSlides(slideIndex);
