@@ -158,7 +158,7 @@ body {
     width: 100vw;
     height: calc(100vw * 0.53);
     margin: 0 auto;
-    background-image: url(../images/2023graphic/2023FestivalBanner.jpg);
+    background-image: url(../images/festivalphotos/2023-3.jpg);
     background-repeat: no-repeat;
     background-position: top center;
     background-clip: border-box;
@@ -173,9 +173,9 @@ body {
     display: block;
     max-width: 100%;
     width: 100vw;
-    height: 100vw;
+    height: calc(100vw * 0.523);
     margin: 0 auto;
-    background-image: url(../images/2022/square_banner.jpg);
+    background-image: url(../images/2023graphic/2023FestivalBanner.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-clip: border-box;
@@ -188,7 +188,7 @@ body {
     width: 100vw;
     height: calc(100vw * 0.523);
     margin: 0 auto;
-    background-image: url(../images/2022/flat_banner.jpg);
+    background-image: url(../images/2023graphic/2023FestivalBanner.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-clip: border-box;
@@ -200,9 +200,9 @@ body {
     width: 1000px;
     height: 524px;
     margin: 0;
-    background-image: url(../images/2022/flat_banner.jpg);
+    background-image: url(../images/2023graphic/2023FestivalBanner.jpg);
     background-repeat: no-repeat;
-    background-position: top;
+    background-position: center;
     background-clip: border-box;
     }
 }
