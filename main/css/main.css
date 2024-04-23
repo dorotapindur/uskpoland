@@ -273,6 +273,12 @@ body {
     color: #0077d8;
     transition: color 0.2s ease-in;
 }
+.demos-container {
+    display: none;
+}
+.demos-open {
+    display: block;
+}
 .workshops-container {
     display: none;
 }
