@@ -7,7 +7,7 @@ html {
     color: black;
     margin: 0;
     padding: 0;
-    background-color: #7fc3a1ff;
+    background-color: #5cbcb4;
     scroll-behavior: smooth;
 }
 * {
@@ -30,7 +30,7 @@ body {
     height: 110px;
     margin: 0;
     padding: 20px;
-    background: #7fc3a1ff;
+    background: #5cbcb4;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -142,7 +142,7 @@ body {
     bottom: 0px;
     right: 0px;
     z-index: 3;
-    background: #7fc3a1ff;
+    background: #5cbcb4;
     padding: 5px 5px 0 5px;
     border-radius: 50% 50% 0 0;
     border-style: solid;
@@ -258,7 +258,7 @@ body {
     padding: 5px;
     width: 150px;
     height: 50px;
-    background-color: #7fc3a1ff;
+    background-color: #5cbcb4;
     border-radius: 5px;
     align-items: center;
     justify-content: center;
@@ -291,7 +291,7 @@ body {
 .workshops-image-background {
     width: calc(100vw - 20px);
     max-width: 1000px;
-    background-color: #7fc3a1ff;
+    background-color: #5cbcb4;
     display: flex;
     justify-content: center;
 }
@@ -397,7 +397,7 @@ body {
     margin: 0;
     padding: 10px;
     text-align: center;
-    background-color: #7fc3a1ff;
+    background-color: #5cbcb4;
 }
 .footer__text {
     margin: 0;
