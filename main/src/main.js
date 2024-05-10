@@ -16,7 +16,7 @@ menuButton.addEventListener('click', () => {
 
 const workshopsInfo = document.querySelector('.workshops--js');
 const workshopsContainer = document.querySelector('.workshops-container');
-let workshopsOpen = false;
+let workshopsOpen = true;
 
 workshopsInfo.addEventListener('click', () => {
   if (workshopsOpen) {
