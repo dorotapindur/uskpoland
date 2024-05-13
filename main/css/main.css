@@ -291,7 +291,7 @@ body {
 .workshops-image-background {
     width: calc(100vw - 20px);
     max-width: 1000px;
-    background-color: #5cbcb4;
+    background-color: #ffffff;
     display: flex;
     justify-content: center;
 }
