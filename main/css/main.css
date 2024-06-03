@@ -338,6 +338,7 @@ body {
 .inactive-button {
     opacity: 0.5;
     cursor: not-allowed;
+    pointer-events: none; 
 }
 .sponsors__text {
     font-size: 1.2rem;
