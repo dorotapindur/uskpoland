@@ -14,6 +14,37 @@ menuButton.addEventListener('click', () => {
     }
 });
 
+const workshopsInfo = document.querySelector('.workshops--js');
+const workshopsContainer = document.querySelector('.workshops-container');
+let workshopsOpen = true;
+
+workshopsInfo.addEventListener('click', () => {
+  if (workshopsOpen) {
+      workshopsContainer.classList.remove('workshops-open');
+      workshopsInfo.innerHTML = 'click here';
+      workshopsOpen = false;
+  } else {
+      workshopsContainer.classList.add('workshops-open');
+      workshopsInfo.innerHTML = 'close';
+      workshopsOpen = true;
+  }
+});
+
+const demosInfo = document.querySelector('.demos--js');
+const demosContainer = document.querySelector('.demos-container');
+let demosOpen = false;
+
+demosInfo.addEventListener('click', () => {
+  if (demosOpen) {
+      demosContainer.classList.remove('demos-open');
+      demosInfo.innerHTML = 'click here';
+      demosOpen = false;
+  } else {
+      demosContainer.classList.add('demos-open');
+      demosInfo.innerHTML = 'close';
+      demosOpen = true;
+  }
+});
 
 
 let slideIndex = 1;
