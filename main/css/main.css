@@ -570,4 +570,14 @@ iframe {
     color: #B0CB1F;
     transition: color 0.2s ease-in;
 }
-
+.szbg {
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+    gap: 10px 10px;
+}
+.szbg_cover {
+    width: 100%;
+    border: solid black 2px;
+    margin: 5px 0 0 0;
+}
