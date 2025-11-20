@@ -7,7 +7,7 @@ html {
     color: black;
     margin: 0;
     padding: 0;
-    background-color: #7690C9;
+    background-color: #ffaa3b;
     scroll-behavior: smooth;
 }
 * {
@@ -30,7 +30,7 @@ body {
     height: 110px;
     margin: 0;
     padding: 20px;
-    background: #7690C9;
+    background: #ffaa3b;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -142,31 +142,31 @@ body {
     bottom: 0px;
     right: 0px;
     z-index: 3;
-    background: #7690C9;
+    background: #ffaa3b;
     padding: 5px 5px 0 5px;
     border-radius: 50% 50% 0 0;
     border-style: solid;
     border-width: 2px 2px 0 2px;
-    border-color: #B0CB1F;
+    border-color: #361da8;
     font-size: small;
     text-decoration: none;
-    color: #B0CB1F;
+    color: #361da8;
 }
 .banner-uskpoland {
     display: block;
     max-width: 100%;
     width: 100vw;
-    height: calc(100vw * 0.53);
+    height: calc(100vw * 0.439);
     margin: 0 auto;
-    background-image: url(../images/pagegraphic/group2.jpg);
+    background-image: url(../images/pagegraphic/tarnow_baner_logo.jpg);
     background-repeat: no-repeat;
-    background-position: top center;
+    background-position: center center;
     background-clip: border-box;
     background-size: contain;
 }
 @media screen and (min-width: 1000px) {
     .banner-uskpoland {
-    height: 530px; /*adjust when changing picture*/
+    height: 439px; /*adjust when changing picture*/
     }
 }
 .banner {
@@ -214,7 +214,7 @@ body {
     margin: 0;
     padding: 1rem 0;
     font-size: 1.3rem;
-    color:  #B0CB1F;
+    color:  #361da8;
     text-align: center;
     font-weight: bolder;
 }
@@ -227,6 +227,11 @@ body {
     font-weight: bold;
     margin: 0 0 1rem;
     padding: 0;
+}
+.secondary__header {
+    color: #ffaa3b;
+    font-weight: bold;
+    margin: 0 0 10px 0;
 }
 .program-list {
     margin: 0 0 20px;
@@ -259,7 +264,7 @@ body {
     padding: 5px;
     width: 150px;
     height: 50px;
-    background-color: #7690C9;
+    background-color: #ffaa3b;
     border-radius: 5px;
     align-items: center;
     justify-content: center;
@@ -271,7 +276,7 @@ body {
     transition: color 0.2s ease-in;
 }
 .register__button:hover {
-    color: #0077d8;
+    color: #ffaa3b;
     transition: color 0.2s ease-in;
 }
 .demos-container {
@@ -379,7 +384,7 @@ body {
     transition: color 0.2s ease-in;
 }
 .link:hover {
-    color: #49adff;
+    color: #ffaa3b;
     transition: color 0.2s ease-in;
     cursor:pointer;
 }
@@ -405,7 +410,7 @@ body {
     margin: 0;
     padding: 10px;
     text-align: center;
-    background-color: #7690C9
+    background-color: #ffaa3b
 }
 .footer__text {
     margin: 0;
@@ -542,11 +547,12 @@ iframe {
 .volunteer__graphic {
     width: 100%;
     float: left;
-    margin: 0px;
+    margin: 0 0 10px 0;
 }
 @media screen and (min-width: 600px) {
     .volunteer__graphic {
         max-width: 280px;
+        margin: 0 10px 0 0;
     }
 }
 .volunteer__button {
@@ -555,7 +561,7 @@ iframe {
     padding: 10px;
     width: 200px;
     height: 80px;
-    background-color: #7690C9;
+    background-color: #ffaa3b;
     border-radius: 5px;
     align-items: center;
     justify-content: center;
@@ -567,7 +573,7 @@ iframe {
     transition: color 0.2s ease-in;
 }
 .volunteer__button:hover {
-    color: #B0CB1F;
+    color: #361da8;
     transition: color 0.2s ease-in;
 }
 .szbg {
