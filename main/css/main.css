@@ -391,13 +391,21 @@ body {
 .contact__box {
     padding: 0;
     margin: 0 0 1rem;
-    word-break: break-all;
 }
 .contact__item {
     display: flex;
     align-items: center;
     padding: 5px;
+    word-break: normal;
+    overflow-wrap: normal;
 }
+.contact__item__breakable {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    overflow-wrap: anywhere;
+    word-break: break-word;  
+  }
 .contact__icon {
     margin: 0 10px 0 0;
 }
