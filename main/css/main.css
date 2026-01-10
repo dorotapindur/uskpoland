@@ -595,3 +595,7 @@ iframe {
     border: solid black 2px;
     margin: 5px 0 0 0;
 }
+
+.yt_video {
+    margin: 0 auto 30px;
+}
