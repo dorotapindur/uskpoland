@@ -350,6 +350,7 @@ body {
     font-size: 1.2rem;
     font-weight: bold;
     text-align: center;
+    color:#f9b24a;
 }
 .sponsors {
     display: grid;
@@ -550,6 +551,17 @@ iframe {
 .plan-button {
     display: block;
     margin: 0 auto 30px;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #f9b24a;
+    scale: 1;
+    transition: background-color 0.1s ease-in, scale 0.1s ease-in;
+}
+
+.plan-button:hover {
+    background-color: #f7bf6c;
+    scale: 1.05;
+    transition: background-color 0.1s ease-in, scale 0.1s ease-in;
 }
 
 .volunteer__graphic {
